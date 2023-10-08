@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    border: none;
+}
+
+.blank{
+    width: 100%;
+    min-height: 5vh;
+    background-color: gray;
+}
+
+header{
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.colors{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.red h2{
+    text-align: center;
+    color: red;
+}
+
+.squarred{
+    width: 100%;
+    margin: 10px;
+    min-height: 7vh;
+    background-color: #ff0000;
+}
+
+.colors ul{
+    list-style: none;
+    margin: 10%;
+    line-height: 1.4;
+}
+
+.green{
+    padding-left: 5%;
+}
+
+.green h2{
+    text-align: center;
+    color: green;
+}
+
+.squargreen{
+    width: 100%;
+    margin: 10px;
+    min-height: 7vh;
+    background-color: green;
+}
+
+.blue{
+    padding-left: 5%;
+}
+
+.blue h2{
+    text-align: center;
+    color: blue;
+}
+.squarblue{
+    width: 100%;
+    margin: 10px;
+    min-height: 7vh;
+    background-color: blue;
+}
+
+.fonts{
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.young_serif h2{
+    padding-bottom: 10px;
+    font-family: 'Young Serif', serif;
+}
+
+.young_serif p{
+    font-family: 'Young Serif', serif;
+    font-size: 24px;
+}
+
+
+.pixelify_Sans h2{
+    padding: 20px 10px 20px;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.pixelify_Sans p{
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 24px;
+}
+
+.montserrat h2 {
+    padding: 20px 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.styles_guide{
+    padding: 5%;
+}
+
+.styles_guide h2{
+    text-align: center;
+    font-size: 48px;
+}
+
+.title_h1 h3{
+    color: red;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.subtitle_h2 h3{
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+}
+
+.ulist h3{
+    color: aqua;
+    font-style: inherit;
+    font-size: 24px;
+}
+
+.styles_guide ul{
+    list-style: none;
+    padding: 5px 5px;
+    font-size: 18px;
+}
+
+.styles_guide ul li{
+    padding: 5px;
+}
+
+.boxmodel{
+    display: block;
+    padding: 5%;
+}
+
+.boxmodel h2{
+    text-align: center;
+    font-size: 48px;  
+}
+
+.explanation p{
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0px 10px;
+}
+
+
+.margin{
+    border: 1px dashed green;
+    padding: 10px 15px 30px 15px;
+}
+
+.border{
+    border: 1px solid blue;
+    padding: 10px 15px 30px 15px;
+}
+
+.padding{
+    border: 1px solid pink;
+    padding: 10px 15px 30px 15px;
+}
+
+.content{
+    border: 1px dashed black;
+    padding: 10px 15px 30px 15px;
+}
